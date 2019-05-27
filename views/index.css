@@ -1,0 +1,17 @@
+textarea, button {
+    width: 100vh;
+}
+
+textarea {
+    height: 40vh;
+    resize: none;
+    line-height: 1.5em;
+}
+
+button{
+    height: 10vh;
+}
+
+body{
+    background-color: #666666;
+}

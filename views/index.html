@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Read english easily</title>
+    <!--    <link rel="stylesheet" type="text/css" href="./index.css">-->
+    <style>
+        textarea, button {
+            width: 90%;
+            text-align: center;
+        }
+
+        textarea {
+            height: 40vh;
+            resize: none;
+            line-height: 1.5em;
+            font-size: 100%;
+            text-align: left;
+        }
+
+        button {
+            height: 5vh;
+            font-size: 150%;
+            background-color: skyblue;
+        }
+
+        body {
+            background-color: #999999;
+            margin: auto;
+            padding: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<form action="/" method="POST">
+    <p><textarea name="input" placeholder="パースしたい文章を入力してください"></textarea></p>
+    <p>
+        <button type="submit">Convert</button>
+    </p>
+    <p><textarea name="output" placeholder="パース結果がここに張り出されます(Readonly)" readonly><%= result %></textarea></p>
+</form>
+</body>
+</html>
