@@ -1,0 +1,25 @@
+{
+  "name": "read-english-easily",
+  "version": "1.0.0",
+  "description": "英語論文を読むのがつらいので、読みやすくしてくれるプログラム   以下の機能を持つ   - pdfの無駄な改行除去   - コンマごと+見やすいように文章間を改行   - クリップボードに自動でコピー",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KessaPassa/read-english-easily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KessaPassa/read-english-easily/issues"
+  },
+  "homepage": "https://github.com/KessaPassa/read-english-easily#readme"
+}

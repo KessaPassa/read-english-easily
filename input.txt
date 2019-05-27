@@ -1,8 +1,0 @@
-This paper formally develops these concepts in a way that generalizes the construction
-of Figure 1 to allow arbitrary graphical models inside the plate, and a more general observation
-model that includes both noisy observations and observations involving multiple variables. We develop
-an efficient Gibbs sampler to conduct inference in CGMs that builds on existing work for conducting
-exact tests in contingency tables and makes several novel technical contributions. Foremost
-is the analysis of the distribution over the move size , which we show to be a discrete univariate
-distribution that generalizes both the binomial and hypergeometric distributions. In particular, we
-prove that it is always log-concave [3], so it can be sampled in constant expected running time.
